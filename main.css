@@ -1,0 +1,224 @@
+header>h1,footer
+{
+    width: 100%;
+    height: 50px;
+    
+   /* position: fixed;*/
+}
+
+h1
+{
+    position: fixed;
+}
+#wrapper
+{ 
+    margin: 80px 0 105px 0; 
+    position: relative;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    background-color: white;
+    width: 100%;
+  }
+#oneAside {
+    position: absolute;
+    left: 0px;
+    width: 200px;
+}
+#art1
+{
+    /* position is static by default */
+    position: absolute;
+	left: 160px;
+	height: 400px;
+	width: 750px;
+	padding: 0 .2em;
+	overflow: scroll;
+} 
+#wrapper .art1
+{ 
+    margin-top: 50px; 
+    margin-bottom: 50px;  
+    position: relative;
+    overflow: scroll;
+}
+.left4
+{
+    width: 20%;
+    float: left;
+}
+.right4
+{
+    width: 30%;
+    float: right;
+} 
+#para
+{
+    margin-left: 25%;
+}
+#para1
+{
+    margin-right: 25%;
+}
+article {
+	float: none;
+	}
+    section {
+        margin-left: 25%;
+      }
+article p:last-of-type {
+	padding: 0 0 2em;
+	}
+    .box2 {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    margin: 10px,10px,10px,10px; 
+    }
+   /* a>img
+    {
+        margin-left: 70%;
+    }
+    */
+.pic
+{
+    width: 50%;
+    height: 50%;
+    /*float: right;*/
+    box-shadow: 5px 5px #888888;
+}  
+h2{
+    padding:  .2em;
+    text-align: center;
+}
+.header_2
+{
+    margin-left: 25%;
+}
+.banner
+{
+    width: 870px;
+    margin-left: 30%;
+}
+#para2
+{
+    margin-left: 25%; 
+}
+.img1
+{
+    width: 300px;
+    height: 250;
+    float: right;
+}
+.img2
+{
+    margin-left: 80px;
+    width: 300px;
+    height: 250;
+    float: left;
+}
+#twoAside {
+    float: left;
+    width: 200px;
+  }
+#twoArticle {
+    margin-right: 200px;
+    float:right;
+  }
+#twoImg
+{
+    float:right; 
+    width: 400px;
+    margin-right: 350px;
+    padding-bottom: 20px;
+}
+  .box {
+    float: left; 
+  }
+  .after-box {
+    clear: left;
+  }
+  .clearfix {
+    overflow: auto;
+  }
+/*
+
+h1
+{
+    position: fixed;
+}
+footer
+{ 
+    position: fixed; 
+}
+div > h1
+{ 
+    position: fixed; 
+}
+footer
+{ 
+    position: fixed; 
+}
+
+h2
+{
+    text-align: center;
+}
+img
+{
+    float: right;
+    width: 600px;
+}*/
+/*h1, footer
+{
+    width: 100%;
+    height: 25px; 
+} 
+
+#wrapper
+{
+    position: relative;
+    margin-top: 5%; 
+    margin-bottom: 5%; 
+}
+
+aside
+{
+    float: left;
+    width: 20%;
+    position: absolute;
+    padding-left: 30%;
+}
+
+article
+{ 
+    width: 20%;
+    position: absolute;
+    margin-top: 30%;
+}
+#art1
+{
+    float: left;
+    height: 110px; 
+    overflow: scroll;
+}
+#art2
+{
+    padding-left: 60%; 
+    height: 110px;
+    
+    overflow: scroll;
+}
+article.p
+{
+
+    
+}
+img
+{
+    float: right;
+    width: 100px;
+}*/
